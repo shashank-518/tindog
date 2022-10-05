@@ -1,0 +1,189 @@
+body{
+     font-family: "Montserrat-black";
+     font-weight: 400;
+}
+/* title section */
+#title{
+    color: #fff;
+    background-color: #ff4c68;
+    height: 550px;
+}
+.main-heading{
+    font-family: "ubuntu";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5; 
+}
+
+.container-fluid{
+      padding: 3% 15% 3% 15%;
+      text-align: left;
+}
+ /*  download buttons  */
+i{
+    padding-right: 4px;
+}
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* navigation */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+/* title-img */
+.title-img{
+    width: 60%;
+    transform: rotate(20deg);
+    position: relative;
+    left: 20%;
+}
+
+
+
+/* features */
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: ; */
+}
+.img-fea{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.img-fea:hover{
+    color:#ff4c68;
+}
+
+.fea-h{
+    font-family: 'ubuntu';
+   font-weight: bolder ;
+    font-size: 1.5rem;
+}
+.p-fea{
+    color: #8f8f8f;
+}
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+
+/* testimonial */
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.testimonial-text{
+    font-family: 'ubuntu';
+   font-weight: bold ;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+ 
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.pressnote{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* pricing */
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* call to action */
+#cta{
+    color: #fff;
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-h3{
+
+    font-family: ubuntu;
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+.cta-button{
+    margin: 25px 8px 0 ;
+}
+ 
+/* footer */
+#footer{
+    text-align: center;
+    padding: 7% 25%;
+}
+.footer-icon{
+    padding: 0 5px;
+}
+.footer-p{
+    line-height: 4;
+    color: #8f8f8f;
+}
+
+
+
+@media (max-width:1075px) and (min-width:990px){
+    #title{
+        height: 600px;
+    }
+}
+
+
+@media (max-width:990px){
+    #title{
+        height: 1500px;
+    }
+
+
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    .title-row{
+        text-align: center;
+    }
+}
